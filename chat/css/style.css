@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+.left{
+	float: left;
+}
+.right{
+	float: right;
+}
+.margin_10{
+	margin-right: 10px;
+}
+span{
+	color: #999;
+	font-size: 14px;
+}
+
+.container{
+	display: grid;
+	grid-template-columns: repeat(12, 1fr);
+	grid-template-rows: repeat(12, 1fr);
+}
+.header{
+	grid-column: 2 / 13;
+	grid-row: 2 / 3;
+	border-bottom: 1px solid #ccc;
+	padding-bottom: 10px;
+}
+.status a{
+	display: flex;
+	text-decoration: none;
+	color: #999;
+}
+.user_left img{
+	width: 50px;
+	border-radius: 100px;
+
+}
+span{
+	margin-top: 10px;
+}
+
+.user_left{
+	display: flex;
+}
+.user_right{
+	text-align: end;
+}
+.hello_left{
+	grid-column: 2 / 12;
+	grid-row: 4 / 5;
+}
+.hello_right{
+	grid-column: 10 / 12;
+	grid-row: 5 / 6;
+}
+.questin_left{
+	grid-column: 2 / 12;
+	grid-row: 6 / 7;
+}
+.answer_right{
+	grid-column: 10 / 12;
+	grid-row: 7 / 8;
+}
+.answer_left{
+	grid-column: 2 / 12;
+	grid-row: 8 / 9;
+}
+.message{
+	grid-column:2 / 12 ;
+	grid-row: 10 / 11 ;
+}
+.message input{
+	border: none;
+	width: 100%;
+	height: 50px;
+}
